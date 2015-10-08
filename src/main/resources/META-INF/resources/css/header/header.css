@@ -114,6 +114,24 @@ div#HEADER_USER_STATUS{
    margin: 10px 12px;
 }
 
+/* Search Box Style */
+.alfresco-share .alfresco-header-SearchBox{
+   border: none;
+   display: block;
+   width: 100%;
+   background: 0 0;
+   text-align: left;
+   color: inherit;
+   border-radius: 12px;
+   box-shadow: none;
+   padding-left: 0;
+   padding-bottom: 0;
+}
+.alfresco-share .alfresco-header-SearchBox input.alfresco-header-SearchBox-text{
+   color: #CFD8DC;
+   border-bottom: 1px solid #CFD8DC;
+   background-color: transparent;
+}
 /* Responsive Header Design */
 
 /* Media Queries
