@@ -89,6 +89,11 @@
    color: #CFD8DC;
 }
 
+.alfresco-share .alfresco-header-AlfCascadingMenu .dijitMenu .dijitMenuItemHover td, .alfresco-share .alfresco-header-AlfCascadingMenu .dijitMenu .dijitMenuItemSelected td, .alfresco-share .alfresco-header-AlfCascadingMenu .dijitMenu .dijitMenuItemHover, .alfresco-share .alfresco-header-AlfCascadingMenu .dijitComboBoxMenu .dijitMenuItemHover, .alfresco-share .alfresco-header-AlfCascadingMenu .dijitMenuItemSelected{
+   background-color: #455A64;
+   color: #CFD8DC;
+}
+
 /* User status header style */
 .alfresco-header-CurrentUserStatus .status{
    background-color: #FF5722;
