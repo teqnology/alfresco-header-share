@@ -20,14 +20,14 @@ This extension aims to customize the header in Alfresco 5.x using Share extensio
 - Alfresco Enterprise/Community 5.x
 - Alfresco Maven SDK 2.1.0 ([Alfresco Maven compatibility matrix](http://docs.alfresco.com/5.0/concepts/alfresco-sdk-compatibility.html))
 - [Alfresco Maven Enterprise account](http://docs.alfresco.com/5.0/concepts/alfresco-sdk-tutorials-alfresco-enterprise.html) (if using Enterprise artifacts, `pom.xml` needs to be changed accordingly).
-- `alfresco-header-share.amp` found [here](/raw/master/target/alfresco-header-share.amp).
+- `alfresco-header-share.amp` found [here](https://github.com/teqnology/alfresco-header-share/raw/master/target/alfresco-header-share.amp).
 
 # Quickstart
 
 - Locate the AMP files inside the path:
 	- `alfresco-header-share/target/alfresco-header-share.amp` you can download it [here](https://github.com/teqnology/alfresco-header-share/blob/master/target/alfresco-header-share.amp)
 - Stop Alfresco
-- Copy the [alfresco-header-share.amp](/raw/master/target/alfresco-header-share.amp) inside your alfresco `amps_share` folder
+- Copy the `alfresco-header-share.amp` inside your alfresco `amps_share` folder
 - Run `bin/apply_amps.sh` in order to install the extensions
 - Start Alfresco
 - Open Alfresco Share URL (eg. `http://localhost:8080/share`) and log in
