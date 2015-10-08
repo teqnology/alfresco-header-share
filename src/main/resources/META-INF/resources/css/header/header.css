@@ -12,13 +12,22 @@
 
 /* Sets the highlight on the menu bar items in the header bar ONLY */
 .alfresco-share .alfresco-header-Header .alfresco-menus-AlfMenuBar .dijitMenuPassive .dijitMenuItemHover {
-   background-color: #455A64;
-   color: #FFFFFF;
+   border-bottom: 4px solid #FF5722;
 }
 
 .alfresco-share .alf-header-menu-bar .dijitMenuItem {
    color: #CFD8DC;
 }
+
+.alfresco-share .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItem {
+  margin: 0 5px;
+  padding: 2px 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+}
+
+
 
 /* Sets the highlight on popup menu items in the header bar ONLY. Note that we need to use "alf-header-menu-bar" and not
    just "alf-header" because the popup is not a direct child of the node set with the "alf-header" class */
@@ -26,20 +35,20 @@
 .alfresco-share .alf-header-menu-bar .alf-menu-group .dijitMenuItemSelected {
    background-color: #455A64;
    color: #FFFFFF;
+   border-bottom: 4px solid #FF5722;
 }
 
 /* Sets the selection highlight colour on header menu items - more specific than class in AlfMenuBar */
 .alfresco-share .alfresco-header-Header .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItemSelected.dijitMenuItem {
    background-color: #455A64;
+   border-bottom: 4px solid #FF5722;
 }
 
 /* Sets the correct height for the header menu bar items. This may need to be changed for different browsers and
  * possible adjusted if items in the header are changed */
-.alfresco-share .alfresco-header-Header .dijitReset.dijitInline.dijitMenuItemLabel.dijitMenuItem {
-   height: 22px;
-   margin: 0 8px;
-   padding-top: 4px;
-   color: #FFFFFF;
+.alfresco-share .alfresco-header-Header .dijitMenuItem {
+   background-color: transparent !important;
+   border-bottom: 4px solid transparent;
 }
 
 /* Sets the dark grey colour in the drop-down menus in header menus ONLY. */
@@ -64,3 +73,59 @@
 .alfresco-share .alf-header-menu-bar .alf-menu-group .dijitReset.dijitMenuItem {
    border-bottom: none;
 }
+
+/* Dropdown menu style */
+.alfresco-share .alf-header-menu-bar .dijitMenu .dijitMenuItemHover td, .alfresco-share .alf-header-menu-bar .dijitMenu .dijitMenuItemSelected td, .alfresco-share .alf-header-menu-bar .dijitMenu .dijitMenuItemHover, .alfresco-share .alf-header-menu-bar .dijitComboBoxMenu .dijitMenuItemHover, .alfresco-share .alf-header-menu-bar .dijitMenuItemSelected{
+   background-color: #455A64;
+   color: #CFD8DC;
+}
+.dijitPopup.Popup .alfresco-header-AlfCascadingMenu .alf-menu-group.dijitMenu .alf-menu-group-items .alf-dropdown-menu{
+   background-color: #455A64;
+   color: #CFD8DC;
+
+}
+.alfresco-share .dijitPopup.Popup .alfresco-header-AlfCascadingMenu .dijitMenuItem{
+   background-color: #455A64;
+   color: #CFD8DC;
+}
+
+/* User status header style */
+.alfresco-header-CurrentUserStatus .status{
+   background-color: #FF5722;
+   color: #FFFFFF;
+}
+
+.alfresco-header-CurrentUserStatus .status.blank {
+   color: #FFFFFF;
+}
+
+div#HEADER_USER_STATUS{
+   -webkit-flex-shrink: 0;
+   -ms-flex-negative: 0;
+   flex-shrink: 0;
+   overflow: hidden;
+   text-align: center;
+   cursor: pointer;
+   margin: 10px 12px;
+}
+
+/* Responsive Header Design */
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
