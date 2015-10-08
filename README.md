@@ -14,6 +14,7 @@ This extension aims to customize the header in Alfresco 5.x using Share extensio
 - New hover effects
 - New dropdown style
 - New `current user status` style
+- *TODO This is the first release, therefore a lot of stuff is still a WiP, like input items, buttons etc. This is not a finished product and it's still not recommended for a production environment.*
 
 # Preview
 
