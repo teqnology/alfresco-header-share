@@ -10,7 +10,7 @@ This extension aims to customize the header in Alfresco 5.x using Share extensio
 
 - Brand new Alfresco Share header style, inspired by [Material Design Lite](http://www.getmdl.io/)
 - Better UX and improved readibility of menu items
-- New color scheme based on [this material palette](https://www.materialpalette.com/blue-grey/deep-orange)
+- New colour scheme based on [this material palette](https://www.materialpalette.com/blue-grey/deep-orange)
 - New hover effects
 - New dropdown style
 - New `current user status` style
@@ -61,7 +61,7 @@ For additional info please refer to [Maven Alfresco SDK documentation - Share AM
 
 # Source code documentation
 
-In order to change the color scheme just go to your share web app folder (eg. `tomcat/webapps/share`) and navigate to `css/header`. You can either create a new `header.css` file and override the current color scheme. The complete css source is:
+In order to change the colour scheme just go to your share web app folder (eg. `tomcat/webapps/share`) and navigate to `css/header`. You can either create a new `header.css` file and override the current color scheme. The complete css source is:
 
 `share/css/header/header.css`:
     
