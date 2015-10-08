@@ -1,5 +1,5 @@
 Androgogic - Alfresco Header Share
----
+==================================
 
 This extension aims to customize the header in Alfresco 5.x using Share extension point: [Surf Extension Modules](http://docs.alfresco.com/5.0/concepts/dev-extensions-share-surf-extension-modules.html).
 [Here](http://docs.alfresco.com/5.0/tasks/dev-extensions-share-tutorials-customize-header-style.html) you'll find all the steps that have been undertaken.
@@ -38,23 +38,6 @@ This extension aims to customize the header in Alfresco 5.x using Share extensio
 - Open Alfresco Share URL (eg. `http://localhost:8080/share`) and log in
 - Make sure the new menu is installed
 - If you don't see the new menu, open Alfresco Share module deploy page: `/share/page/modules/deploy` and make sure the `Andro Header` modules appears under `Deployed modules`.
-
-# Maven and artifacts
-
-Maven filtering added to `pom.xml`:
-
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>2.7</version>
-        <dependencies>
-            <dependency>
-                <groupId>org.apache.maven.shared</groupId>
-                <artifactId>maven-filtering</artifactId>
-                <version>1.3</version>
-            </dependency>
-        </dependencies>
-    </plugin>
 
 ## Quickstart for devs
 
@@ -206,6 +189,26 @@ In order to change the colour scheme just go to your share web app folder (eg. `
     /* Larger than Desktop HD */
     @media (min-width: 1200px) {}
 
+
+The Material Palette colour scheme can be found in the css folder `src/main/resources/META-INF/resoures/css/palette.css`.
+
+## Maven and artifacts
+
+Maven filtering added to `pom.xml`:
+
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.maven.shared</groupId>
+                <artifactId>maven-filtering</artifactId>
+                <version>1.3</version>
+            </dependency>
+        </dependencies>
+    </plugin>
+
 # TODO
 
 - Responsive menu
@@ -216,5 +219,3 @@ In order to change the colour scheme just go to your share web app folder (eg. `
 
 - [Androgogic](http://www.androgogic.com/)
 - [Alen Subat](http://alensubat.me/), blog: [curiousnerd.me](http://www.curiousnerd.me/)
-
-> Written with [StackEdit](https://stackedit.io/).
