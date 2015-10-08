@@ -15,6 +15,10 @@ This extension aims to customize the header in Alfresco 5.x using Share extensio
 - New dropdown style
 - New `current user status` style
 
+# Preview
+
+![Custom Header](https://raw.githubusercontent.com/teqnology/alfresco-header-share/master/screenshots/screenshot.png "Andro Header preview")
+
 # Essentials
 
 - Alfresco Enterprise/Community 5.x
