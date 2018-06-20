@@ -1,4 +1,4 @@
-Androgogic - Alfresco Header Share
+Custom Alfresco Header Share
 ==================================
 
 This extension aims to customize the header in Alfresco 5.x using Share extension point: [Surf Extension Modules](http://docs.alfresco.com/5.0/concepts/dev-extensions-share-surf-extension-modules.html).
@@ -16,7 +16,7 @@ This extension aims to customize the header in Alfresco 5.x using Share extensio
 
 # Preview
 
-![Custom Header](https://raw.githubusercontent.com/teqnology/alfresco-header-share/master/screenshots/screenshot.png "Andro Header preview")
+![Custom Header](https://raw.githubusercontent.com/teqnology/alfresco-header-share/master/screenshots/screenshot.png "Custom Header preview")
 
 # Essentials
 
