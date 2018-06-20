@@ -4,8 +4,6 @@ Androgogic - Alfresco Header Share
 This extension aims to customize the header in Alfresco 5.x using Share extension point: [Surf Extension Modules](http://docs.alfresco.com/5.0/concepts/dev-extensions-share-surf-extension-modules.html).
 [Here](http://docs.alfresco.com/5.0/tasks/dev-extensions-share-tutorials-customize-header-style.html) you'll find all the steps that have been undertaken.
 
-###This extension is being actively developed in [@Androgogic](https://twitter.com/androgogue) by their Alfresco Team. Credits are mentioned at the end of this file.
-
 # Features
 
 - Brand new Alfresco Share header style, inspired by [Material Design Lite](http://www.getmdl.io/)
