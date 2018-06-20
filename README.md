@@ -214,8 +214,3 @@ Maven filtering added to `pom.xml`:
 - Responsive menu
 - bug fixes
 - minor improvements
-
-# Credits
-
-- [Androgogic](http://www.androgogic.com/)
-- [Alen Subat](http://alensubat.me/), blog: [curiousnerd.me](http://www.curiousnerd.me/)
